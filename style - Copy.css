@@ -1,0 +1,485 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+    
+body{
+    background-size:contain;
+    display: flex-box;
+    position:relative;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.865);
+}
+
+nav{
+    width:100%;
+    height:75px;
+    padding:15px 10px;
+    position:fixed;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 1px;
+    border: .8px solid white;
+    z-index: 2;
+   }
+
+.div img{
+    position: relative;
+    height: auto;
+    left:4px;
+    width:120px;
+    border: none;
+    border-radius: 15px;
+    padding:0px 0px;
+    float: left;
+    cursor:pointer;
+}
+
+nav ul
+{
+    
+    float:right;
+    color: white;
+    border-radius: 10px;
+    font-size: larger;
+    font-style:normal;
+    justify-content: space-evenly;
+    line-height: 38px;
+    padding: 1px 2px ;
+}
+
+nav ul li
+{
+    display:inline;
+}
+
+nav li a
+{
+    font-size: x-large;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px 4px;
+    margin: 10px;
+    color:white; 
+    transition: 0.2s;
+}
+
+nav li.login a {
+    font-size: x-large;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px 4px;
+    margin: 6px;
+    color:rgb(253, 253, 253);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: 0.2s;
+    background-color: rgba(236, 12, 12, 0.879);
+}
+
+nav li a:hover{
+    border:2px solid whitesmoke;
+    background-color:rgba(0, 0, 0, 0.632);
+    padding:8px 6px;
+    margin: 6px;
+    border-radius: 25px;
+    font-size: x-large;
+    color: white;
+}
+
+.container{
+    display: flex;
+    padding-top: 200px;
+    width: 100%;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    height: 100%;
+    justify-content: center;
+}
+.container h1{
+    
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0);
+    text-shadow:3px 3px 2px rgb(0, 0, 0);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+
+.nav2{
+    z-index: 1;
+    width:100%;
+    height:80px;
+    padding:15px 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(202, 205, 207, 0.523);
+   }
+
+.nav2 ul
+{
+    display: flex;
+    background-color:rgba(3, 37, 48, 0.203);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: larger;
+    font-style:normal;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    line-height: 38px;
+    box-shadow:2px 2px 5px black;
+    padding: 1px 2px ;
+}
+
+.nav2 ul li
+{
+    margin: auto auto;
+    align-items: center;
+    display:inline;
+}
+
+.nav2 li a
+{
+    
+    font-style: normal;
+    font-size:25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    margin-left: 3px;
+    border-radius: 8px;
+    color:rgb(255, 255, 255); 
+    transition: 0.2s;
+}
+
+.nav2 li a:hover{
+    font-style: normal;
+    padding:6px 8px;
+    border-radius: 30px;
+    border: 3px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.381);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.container2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:30px;
+}
+
+.container2 .cards{
+display:flex;
+margin: 30px 10px;
+padding:10px 6px 16px 6px;
+box-shadow:2px 2.5px 2px 2.5px black;
+transition: 0.3s ease-in-out;
+border-radius: 10px;
+border-color: black;
+color: black;
+font-size: 18px;
+text-align: center;
+background-color: whitesmoke;
+text-shadow: 0.5px 1.2px gray;
+}
+
+.container2 .cards .book2 img{
+width:270px;
+height:400px;
+border-radius: 10px;
+box-shadow:1px 1.5px 1px 1.5px black;
+}
+
+.cards .book2 img:hover{
+    width:270px;
+    height:400px;
+    border: 5px double white;
+    box-shadow:1px 1.5px 1px 1.5px black;
+    }
+    
+
+
+
+
+
+
+
+    .nav3{
+        width:100%;
+        height:180px;
+        padding:15px 10px;
+        margin-top: 80px;
+        background-color: rgb(4, 54, 119);
+        border: 1px solid rgba(202, 205, 207, 0.523);
+       }
+
+
+    .back-video{
+        position: relative;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+*, :before, :after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(63 131 248 / .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+*, :before, :after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.bg-bg {
+    --tw-bg-opacity: 1;
+    background-color: rgb(203 230 211 / var(--tw-bg-opacity));
+}
+.bg-textlightest {
+    --tw-bg-opacity: 1;
+    background-color: rgb(242 242 242 / var(--tw-bg-opacity));
+}
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.font-sans {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji;
+}
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+body {
+    margin: 0;
+    line-height: inherit;
+}
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji;
+    font-feature-settings: normal;
+}
+*, :before, :after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(63 131 248 / .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+:before, :after {
+    --tw-content: "";
+}
+*, :before, :after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+*, :before, :after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(63 131 248 / .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+:before, :after {
+    --tw-content: "";
+}
+*, :before, :after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+::backdrop {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(63 131 248 / .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
